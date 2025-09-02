@@ -23,7 +23,7 @@ const port = por.PORT;
 const ownerNumber = ["94717775628"];
 if (!app) return;
 // Session directory
-const SESSION_DIR = "./sessions";
+const SESSION_DIR = "./session";
 if (!fs.existsSync(SESSION_DIR)) fs.mkdirSync(SESSION_DIR);
 const sess = require("./session");
 async function sessdl() {
